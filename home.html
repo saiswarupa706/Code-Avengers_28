@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="C:\Users\pravi\weather apps\broken glasses\e commerce.css">
+    <title>random</title>
+    <style>
+        .module {
+            background: repeating-linear-gradient(
+  -55deg,
+  #222,
+  #222 10px,
+  #333 10px,
+  #333 20px
+);
+  
+}
+
+.stripe-4 {
+  color: rgb(225, 218, 218);
+  background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
+  );
+}
+        .btn {
+            background-color: rgb(30, 255, 154);
+            border: none;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+
+        .btn:hover {
+            background-color: rgb(188, 65, 225);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid grey;
+            float: left;
+            width: 90%;
+            background: #f1f1f1;
+        }
+
+        form.example button {
+            float: right;
+            width: 10%;
+            padding: 10px;
+            background: #2196F3;
+            color: white;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-left: none;
+            cursor: pointer;
+        }
+
+        form.example button:hover {
+            background: #0b7dda;
+        }
+
+        form.example::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .banner {
+            width: 100%;
+            background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+            /*https://i0.wp.com/media.giphy.com/media/5ERaOy5fQEIAU/giphy.gif*/
+            background-size: cover;
+            font-size: 80px;
+            color: #fff;
+            text-align: center;
+            padding: 40px 15px;
+        }
+
+        .big-text {
+            font-size: 130px;
+            font-weight: 800;
+            animation-delay: 1s;
+        }
+
+        .banner a {
+            display: inline-block;
+            background: #fff;
+            color: #c0b216;
+            text-transform: uppercase;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 40px;
+            transition: .3s;
+        }
+
+        .banner a:hover {
+            background: rgb(208, 194, 39);
+            color: #fff;
+            padding: 15px 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+
+        }
+
+        .brandname {
+            font-size: 5vw;
+            padding: 3vw;
+            text-align: center;
+            color: #0011fd;
+            background-color: rgb(230, 230, 230);
+
+
+        }
+
+
+        .banner {
+
+            height: auto;
+
+        }
+
+        .bannerimage {
+
+            display: block;
+
+            margin: auto;
+            width: 100vw;
+
+
+        }
+
+        .textonbannerimage {
+
+            position: relative;
+            font-size: 5vw;
+            right: 2vw;
+            ;
+
+
+        }
+
+
+
+        .navigation h1 {
+            float: left;
+            font-size: 2vw;
+            ;
+            color: white;
+        }
+
+        .navigation {
+
+            position: sticky;
+            z-index: 1;
+            top: 0;
+            background-color: #000000;
+            margin: auto;
+
+
+        }
+
+
+        .navigation a {
+
+
+            display: inline-block;
+            text-decoration: none;
+            ;
+            color: rgb(197, 192, 33);
+            padding: 1vw;
+
+            font-size: 2vw;
+            margin: 1vw;
+            margin-right: 0.3vw;
+
+        }
+
+
+
+        .navigation a:hover {
+
+            background-color: rgba(255, 255, 255, 0.904);
+            font-size: 2.6vw;
+            color: #ff004c;
+            transition: 0.15s;
+        }
+
+        .banner {
+            width: 100%;
+            background: url(http://s6.favim.com/orig/150112/background-cold-gif-nature-Favim.com-2380226.gif);
+            /*https://i0.wp.com/media.giphy.com/media/5ERaOy5fQEIAU/giphy.gif*/
+            background-size: cover;
+            font-size: 80px;
+            color: #fff;
+            text-align: center;
+            padding: 40px 15px;
+        }
+
+        .big-text {
+            font-size: 130px;
+            font-weight: 800;
+            animation-delay: 1s;
+        }
+
+        .banner a {
+            display: inline-block;
+            background: #fff;
+            color: #36465d;
+            text-transform: uppercase;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 40px;
+            transition: .3s;
+        }
+
+        .banner a:hover {
+
+            background: #333;
+            color: #fff;
+            padding: 15px 20px;
+        }
+        .polaroid a {
+        background: #ffffff;
+        display: inline-block;
+        margin: 55px 75px 30px;
+        padding: 15px 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+        -webkit-transition: all .20s linear;
+        -moz-transition: all .20s linear;
+        transition: all .20s linear;
+        z-index: 0;
+        position: relative;
+      }
+      .polaroid a:after {
+        color: #333;
+        font-size: 25px;
+        content: attr(title);
+        position: relative;
+        top: 15px;
+      }
+      .polaroid img {
+        display: block;
+        width: 250px;
+      }
+      .polaroid a:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+        z-index: 10;
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+      }
+
+
+        
+
+        @media only screen and (max-width: 768px) {
+            .navigation a {
+                font-size: 2.5vw;
+            }
+
+
+            .box1 {
+                display: inline-block;
+                width: 50%;
+            }
+
+            .box2 {
+
+                width: 100%;
+            }
+
+            .box3 {
+
+                width: 100%;
+            }
+
+            .box1 img {
+                display: inline-block;
+
+                padding: 1%;
+                width: 100%;
+                height: 100%;
+            }
+
+            .box2 img {
+                display: inline-block;
+
+                padding: 1%;
+                width: 100%;
+                height: 100%;
+            }
+
+            .box3 img {
+                display: inline-block;
+
+                padding: 1%;
+                width: 100%;
+                height: 100%;
+            }
+
+            .box1 img:hover {
+
+
+                opacity: 0.7;
+                transition: 0.40s;
+
+
+            }
+
+            .box2 img:hover {
+
+
+                opacity: 0.7;
+                transition: 0.40s;
+
+            }
+
+
+            .box3 img:hover {
+
+
+                opacity: 0.7;
+                transition: 0.40s;
+
+            }
+
+
+
+
+            #searchbox {
+                display: inline-block;
+                width: 98%;
+                padding: 1vw;
+                margin: 1%;
+            }
+
+        }
+        
+      }
+    </style>
+</head>
+
+<body>
+    <div class="module">
+        <div>
+            <center><a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\home.html"><img src="C:\Users\lenovo\OneDrive\Desktop\hackathon\hasaa_au.png" height="200" width="300" ></a></center>
+        </div>
+      </div><br>
+      <a href="https://www.facebook.com/Hastatanta-104446615655364"><marquee>Established since 2020</marquee></a>
+
+    <form class="example" action="/action_page.php" style="margin:auto;max: width 2px;">
+        <input type="text" placeholder="Search." name="search2">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <div class="navigation">
+
+        <a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\pottery.html">Pottery</a>
+        <a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\crocery.html">Crockery</a>
+        <a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\polo_req_handloom.html">Handloom</a>
+        <a href="#">Sale</a>
+        
+        <a href="#">Wishlist</a>
+
+        
+        <script src="https://kit.fontawesome.com/ea7b9015bf.js" crossorigin="anonymous"></script>
+    </div>
+    <div class="banner animated tada">
+        <div class=" big-text animated tada">SKILL TRAINING </div>
+        <div>FOR FREE</div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMC2KudGJd0SS_oR3oVhKBMlQlBJlEojd9ZbK67Spd-J-Wrw/viewform?usp=sf_link">REGISTER NOW</a>
+
+    </div>
+    <div class="mySlides fade">
+
+        <img src="https://www.mysticindiatour.com/wp-content/uploads/2013/12/Directorate-of-Handicrafts-Handlooms.jpg"
+            style="width:100%">
+
+        <div class="caption image">HANDICRAFT</div>
+
+    </div>
+
+
+    <div class="mySlides fade">
+
+        <img src="https://cdn.pixabay.com/photo/2019/10/20/16/57/loom-4564223_640.jpg" style="width:100%">
+        <div class="caption image">WEAVING</div>
+
+    </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+           
+        }
+    </script>
+ <section class="footer">
+    <link rel="stylesheet" href="footer_style.css">
+    <div class="box-container">
+ 
+       <div class="box">
+          <h1>quick links</h1>
+          <a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\home.html"> <i class="fas fa-angle-right"></i> home</a>
+          <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
+          <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
+          <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
+       </div>
+ 
+       <div class="box">
+          <h2>Extra links</h2>
+          
+          <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+          <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+          <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+       </div>
+ 
+       <div class="box">
+          <h2>contact info</h2>
+          <a href="#"> <i class="fas fa-phone"></i> 8763542958 </a>
+          <a href="#"> <i class="fas fa-phone"></i> 7752090863 </a>
+          <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <i class="fas fa-envelope"></i> kam.mohapatra@gmail.com </a>
+          <a href="https://www.google.com/maps/place/ITER,+Siksha+'O'+Anusandhan/@20.2498709,85.7827212,15z/data=!4m9!1m2!2m1!1siter!3m5!1s0x3a19a7a3b9692fff:0x87cd0a356bbc39ce!8m2!3d20.2498709!4d85.8002307!15sCgRpdGVykgEQdGVjaG5pY2FsX3NjaG9vbA"> <i class="fas fa-map"></i> iter,bhubaneswar-751001</a>
+       </div>
+ 
+       <div class="box">
+          <h2>Follow us</h2>
+          <a href="https://www.facebook.com/Hastatanta-104446615655364"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="https://www.instagram.com/invites/contact/?i=xnz9bjafrsq0&utm_content=nyzvppv"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="C:\Users\lenovo\OneDrive\Desktop\hackathon\social media login.html">Login with social media </a>
+       </div>
+ 
+    </div>
+ 
+    <div class="credit"> created by <span>Avengers!</span>  </div>
+ 
+ </section>
+ 
+ <!-- footer section ends -->
+ 
+ <!-- swiper js link  -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+ <!-- custom js file link  -->
+ <script src="js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
